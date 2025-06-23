@@ -1,3 +1,3 @@
 FROM tomcat:9.0
-COPY ./*.war  /usr/local/tomcat/webapps/ROOT
+COPY target/*.war  /usr/local/tomcat/webapps/ROOT
 EXPOSE : 8080
